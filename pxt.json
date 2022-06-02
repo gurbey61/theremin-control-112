@@ -1,9 +1,10 @@
 {
-    "name": "Theramin Control 1.12",
+    "name": "Theremin Control 1.12",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
@@ -13,6 +14,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
